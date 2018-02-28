@@ -10,5 +10,11 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
         String inputString = input.readLine();
+        for (int i = 0; i < inputString.length(); i++) {
+            if (inputString.charAt(i) % 2 == 0)
+                even++;
+            else odd++;
+        }
+        System.out.println("Even: " + even + " Odd: " + odd);
     }
 }
