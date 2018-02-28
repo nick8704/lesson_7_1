@@ -1,4 +1,4 @@
-h1 lesson_7_1
+# lesson_7_1
 
 This program determines how many odd and even numbers are in the entered number.
 
